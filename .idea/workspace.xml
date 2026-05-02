@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b23738b-44d0-4ebd-a923-9318c2ecc832" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgramacionConcurrente.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gonzalez/yair/respaldosimultaneo/ModuloC5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gonzalez/yair/respaldosimultaneo/ProcesoDescarga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gonzalez/yair/torneomultihilo/Equipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gonzalez/yair/torneomultihilo/Partido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gonzalez/yair/torneomultihilo/TorneoMX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gonzalez/yair/transferenciasBancarias/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gonzalez/yair/transferenciasBancarias/UsoBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3D8QURi5BqDfjPBSwP8A9Jt6NaO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,8 +37,10 @@
   "keyToString": {
     "Application.ModuloC5.executor": "Run",
     "Application.TorneoMX.executor": "Run",
+    "Application.UsoBanco.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TorneoMX">
+  <component name="RunManager" selected="Application.UsoBanco">
     <configuration name="ModuloC5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gonzalez.yair.respaldosimultaneo.ModuloC5" />
       <module name="ProgramacionConcurrente" />
@@ -94,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsoBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gonzalez.yair.transferenciasBancarias.UsoBanco" />
+      <module name="ProgramacionConcurrente" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gonzalez.yair.transferenciasBancarias.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsoBanco" />
         <item itemvalue="Application.TorneoMX" />
         <item itemvalue="Application.ModuloC5" />
       </list>
@@ -108,7 +114,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777661238405</updated>
-      <workItem from="1777661239469" duration="7800000" />
+      <workItem from="1777661239469" duration="8322000" />
+      <workItem from="1777740625986" duration="6081000" />
     </task>
     <servers />
   </component>
